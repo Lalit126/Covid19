@@ -1,0 +1,23 @@
+.value {
+
+    font-size: 10px;
+}
+
+.label{
+
+    text-align: center;
+    text-decoration: wavy;
+
+
+}
+
+.display-4{
+
+    text-align: center;
+}
+
+.card col{
+
+    min-width: 20%;
+
+}

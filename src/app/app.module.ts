@@ -4,21 +4,29 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ContactComponent } from './contact/contact.component';
-
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { CountriesComponent } from './components/countries/countries.component';
+import { HomeComponent } from './components/home/home.component';
+import { DashboardCardComponent } from './components/dashboard-card/dashboard-card.component';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
-    ContactComponent 
+    NavbarComponent,
+    CountriesComponent,
+    HomeComponent,
+    DashboardCardComponent 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    GoogleChartsModule
+
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

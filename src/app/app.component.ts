@@ -9,7 +9,7 @@ export class AppComponent {
 
 
   
-  title = 'project';
+  title = 'Covid19 Tracker';
   
 
 }
